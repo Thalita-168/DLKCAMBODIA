@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head {
+    display: flex;
+    background: #ffffff;
+    gap: 12px;
+    justify-content: flex-end;
+    padding-right: 12px;
+
+}
+
+.mix {
+    position: fixed;
+    top: 16;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.head img {
+    height: 50px;
+    width: 40px;
+}
+
+.head p {
+    margin-top: 14px;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px 52px 0px 12px;
+
+
+}
+
+.img {
+    display: flex;
+    gap: 12px;
+}
+
+.img img {
+    height: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.img span {
+    color: #222222;
+}
+
+.img p {
+
+    color: #ba425af2;
+    margin-top: 16px;
+    font-size: large;
+}
+
+.menu {
+    flex: 0.4;
+    display: flex;
+    gap: 24px;
+    margin-right: 24px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #222222;
+    margin-top: 24px;
+    font-size: large;
+    font-weight: 600;
+
+}
+
+.menu a:hover {
+    color: #ba425af2;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 320px;
+}
+.main-1 {
+    height: 60vh;
+    background: #F4C7C3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 4em;
+    align-items: center;
+    gap: 2em;
+
+}
+
+.title-text {
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 3px 2px #ba425ad6;
+
+}
+
+.input {
+    position: relative;
+    width: 400px;
+    margin-right: 2.8em;
+}
+
+.input input {
+    width: 100%;
+    padding: 12px 10px 12px 35px;
+    border: 2px solid #ba425a6d;
+    border-radius: 8px;
+    outline: none;
+}
+
+.input i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #8888887d;
+    pointer-events: none;
+}
+.main-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 12px;
+}
+.main-2-1{
+    background: #000;
+    width: 30%;
+    height: 30%;
+}
