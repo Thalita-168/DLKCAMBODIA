@@ -88,3 +88,197 @@ body {
 .menu a:hover {
     color: #ba425af2;
 }
+
+.contact {
+    height: 100vh;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 8%;
+}
+
+hr {
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.location h3 {
+    margin-right: 58%;
+}
+
+.location iframe {
+    width: 80%;
+
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+}
+
+.contact h3 {
+    font-size: 24px;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+
+}
+
+.form1-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.form1-1-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form1-1-1-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.form1-1-1-1 input {
+
+    padding: 14px 58px;
+}
+
+.form2 {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form2 h3,
+.form2 p,
+.form1 h3,
+.form-2-1 ul li {
+    margin-left: 10%;
+    width: 80%;
+}
+
+.form-2-1 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 98%;
+}
+
+.form-2-1 ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form1-1-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form1-1-2-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#message {
+    padding: 42px;
+}
+
+.btn {
+    padding: 12px 24px;
+    width: 20%;
+    border-radius: 24px;
+
+    background: #7a7878;
+    font-size: 16px;
+    border: none;
+    margin-left: 40%;
+    cursor: pointer;
+    color: black;
+}
+
+.btn:hover {
+    background: #ba425af2;
+    color: white;
+}
+
+.footer {
+    margin: 20% auto;
+    width: 100%;
+    background: #1a1a1a;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+.decript-dlk {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.descript-dlk h2 {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.descript-dlk p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.nav {
+    margin-bottom: 20px;
+}
+
+.nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.contacts {
+    margin-bottom: 20px;
+}
+
+.contacts a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.reserve p {
+    font-size: 12px;
+    color: #777;
+}
