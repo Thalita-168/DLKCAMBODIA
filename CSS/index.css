@@ -141,7 +141,6 @@ button {
     font-weight: 500;          
     cursor: pointer;           
     transition: 0.3s ease; 
-    margin-top: 6%;    
     margin-left: 28%;
 }
 button:hover {
