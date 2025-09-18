@@ -87,6 +87,7 @@ body {
 
 .menu a:hover {
     color: #ba425af2;
+    
 }
 
 .main {
@@ -116,6 +117,9 @@ body {
 .title {
     padding-left: 3em;
     padding-top: 6em;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .title h1 {
@@ -127,7 +131,22 @@ body {
     text-shadow: 2px 3px 2px #ba425ad6;
 
 }
-
+button {
+      background-color: white;
+    color: black;               
+    padding: 12px 24px;         
+    border: none;               
+    border-radius: 24px;        
+    font-size: 16px;            
+    font-weight: 500;          
+    cursor: pointer;           
+    transition: 0.3s ease;     
+    margin-left: 32%;
+}
+button:hover {
+     background-color: #f2f2f2;  
+    transform: scale(1.05);     
+}
 .main-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -156,16 +175,17 @@ body {
     padding-top: 4em;
 }
 
-.main-3 {
+.mission_vision {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 60vh;
     place-content: center;
 }
 
-.main-3-1,
-.main-3-2 {
-    box-shadow: #e2bebb66 0px 4px 16px;
+.mision,
+.vision {
+    box-shadow: #66636366 0px 4px 16px;
+    background-color: #fff;
     width: 70%;
     margin-left: 4em;
     display: flex;
@@ -177,18 +197,20 @@ body {
 
 }
 
-.main-3-1:hover,
-.main-3-2:hover {
+.mision:hover,
+.vision:hover {
     transition: width 3s, height 3s;
     transform: scale(1.05);
 }
 
-.main-3-1 img {
-    width: 20%;
+.mision img {
+    width: 16%;
+    border-radius: 50%;
 }
 
-.main-3-2 img {
-    width: 18%;
+.vision img {
+    width: 14%;
+    border-radius: 50%;
 }
 
 .main-3-1-text {

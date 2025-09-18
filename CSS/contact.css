@@ -215,20 +215,32 @@ hr {
     padding: 12px 24px;
     width: 20%;
     border-radius: 24px;
-
-    background: #7a7878;
+    background: #ba425ac4;
     font-size: 16px;
     border: none;
     margin-left: 40%;
     cursor: pointer;
-    color: black;
+    color: white;
 }
 
 .btn:hover {
     background: #ba425af2;
     color: white;
 }
-
+.time{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+#hour{
+    font-size: 18px;
+    font-weight: bold;
+}
+.time1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .footer {
     margin: 20% auto;
     width: 100%;
