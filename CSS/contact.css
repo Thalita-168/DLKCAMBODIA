@@ -215,7 +215,7 @@ hr {
     padding: 12px 24px;
     width: 20%;
     border-radius: 24px;
-    background: #ba425ac4;
+    background: #ce927e;
     font-size: 16px;
     border: none;
     margin-left: 40%;
@@ -224,7 +224,7 @@ hr {
 }
 
 .btn:hover {
-    background: #ba425af2;
+    background: #a67b6d;
     color: white;
 }
 .time{

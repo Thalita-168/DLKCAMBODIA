@@ -98,7 +98,7 @@ body {
 
 .main-1 {
     background: #F4C7C3;
-    height: 80vh;
+    height: 90vh;
 
 }
 
@@ -132,7 +132,7 @@ body {
 
 }
 button {
-      background-color: white;
+    background-color: white;
     color: black;               
     padding: 12px 24px;         
     border: none;               
@@ -140,48 +140,53 @@ button {
     font-size: 16px;            
     font-weight: 500;          
     cursor: pointer;           
-    transition: 0.3s ease;     
-    margin-left: 32%;
+    transition: 0.3s ease; 
+    margin-top: 6%;    
+    margin-left: 28%;
 }
 button:hover {
-     background-color: #f2f2f2;  
-    transform: scale(1.05);     
-}
-.main-2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+     background-color: #ba425a83;  
+    transform: scale(1.05);  
+    color: white;   
 }
 
-.main-2-img {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-
+.our_story{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 4% 14%;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    word-spacing: 2px;
 }
-
-.main-2-img img {
+.our_story h1{
+    font-size: 32px;
+}
+.our_story p{
+    word-spacing: 4px;
+    font-size: 20px;
+    color: #777;
+}
+.learnmore{
     width: 100%;
-
+    padding: 12px 24px;
+    background: #ce927e;
+    border-radius: 12px;
+    color: white;
 }
-
-.main-2-text {
-    background: white;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+.our_story a{
+     margin-right: 12%;
 }
-
-.main-2-text p {
-    font-size: 24px;
-    width: 90%;
-    text-align: justify;
-    padding-left: 2em;
-    padding-top: 4em;
+.learnmore:hover{
+    background: #a67b6d;
 }
-
 .mission_vision {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 60vh;
     place-content: center;
 }
-
 .mision,
 .vision {
     box-shadow: #66636366 0px 4px 16px;
