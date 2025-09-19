@@ -1,0 +1,22 @@
+@media(min-width:320px) and (max-width:767px){
+    .img p{
+        display: none;
+    }
+    .menu a{
+        font-size: 14px;
+    }
+    .title-text h1{
+        font-size: 28px;
+        margin-right: 22px;
+    }
+    .input{
+        margin-left: 26%;
+    }
+    .input input{
+        width: 60%;
+        
+    }
+    .card{
+       display: none;
+    }
+}
