@@ -157,6 +157,7 @@ body {
 
 .btn-learn-more:hover {
     background: #ce927e;
+    color: white;
     border: none;
 }
 
@@ -206,6 +207,9 @@ body {
 .main-4 p{
     color: #777;
 }
+.main-4 a button{
+    margin-left: -2px;
+}
 .btn-contact{
     width: 24%;
     padding: 12px 24px;
@@ -214,6 +218,10 @@ body {
     margin-left: 40%;
     font-size: 16px;
     background: #ce927e;
+    color: white;
+}
+.btn-contact:hover {
+    background: #a67b6d;
     color: white;
 }
 .footer {

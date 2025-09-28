@@ -40,7 +40,7 @@
          margin: 70em 0;
     }
 }
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 601px) and (max-width: 1024px){
     .main-1{
         margin-top:10%;
     }

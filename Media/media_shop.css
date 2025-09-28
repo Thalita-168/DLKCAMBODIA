@@ -1,22 +1,119 @@
-@media(min-width:320px) and (max-width:767px){
-    .img p{
+@media(min-width:320px) and (max-width:767px) {
+    .img p {
         display: none;
     }
-    .menu a{
+
+    .menu a {
         font-size: 14px;
     }
-    .title-text h1{
+
+    .title-text h1 {
         font-size: 28px;
         margin-right: 22px;
     }
-    .input{
+
+    .input {
         margin-left: 26%;
     }
-    .input input{
+
+    .input input {
         width: 60%;
+
+    }
+
+    .card {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .card a {
+        height: 70%;
+        width: 30%;
+    }
+
+    .card1 p,
+    .card2 p,
+    .card3 p,
+    .card4 p {
+        display: none;
+    }
+
+    .pic {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .name h3 {
+        font-size: 24px;
+    }
+
+    .pic .card-1 {
+        min-width: 120px;
+        height: 100px;
+    }
+
+    .info p {
+        display: none;
+    }
+    .item,.item1, .item2, .item3{
+        display: flex;
+        flex-direction: column;
         
     }
-    .card{
-       display: none;
+    .item h3, .item1 h3, .item2 h3, .item3 h3{
+        font-size: 18px;
+    }
+    .item p{
+       margin-bottom: 28px;
+       font-size: 100px;
+    }
+    .info-1{
+        margin-right: 18px;
+    }
+    .main-2{
+        margin-top: 42px;
+    }
+    .categories{
+        padding-bottom: 100px;
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+    .card a {
+        height: 70%;
+        margin-top: 70px;
+    }
+    .name h3 {
+        font-size: 32px;
+    }
+    .name p , .name i{
+        font-size: 24px;
+    }
+    .name i{
+        margin-top: 2.5px;
+    }
+    .pic {
+        flex-wrap: wrap;  
+        justify-content: flex-start;
+        gap: 12px;
+        padding: 0 12px;
+    }
+    .pic .card-1 {
+        flex: 1 1 33.3333%;
+        height: 250px;
+    }
+    .item, .item1, .item2, .item3{
+        display: flex;
+        gap: 10em;
+    }
+    .item h3, .item1 h3, .item2 h3, .item3 h3{
+        font-size: 32px;
+        margin-top: 2px;
+    }
+    .info p{
+        font-size: 24px;
+    }
+    .info-1 i{
+        font-size: 32px;
     }
 }

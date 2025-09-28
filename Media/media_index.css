@@ -42,7 +42,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 601px) and (max-width: 1024px){
     .main-1 {
         height: 70vh;
     }
@@ -64,5 +64,11 @@
     .title h1 {
         font-size: 36px;
         width: 100%;
+    }
+    .mision, .vision{
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        padding: 18px;
     }
 }
