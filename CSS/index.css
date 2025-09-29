@@ -193,11 +193,14 @@ button:hover {
     width: 70%;
     margin-left: 4em;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 8px;
     height: 30vh;
     padding: 8px;
+    /* background: #000; */
+
 
 }
 
@@ -208,19 +211,24 @@ button:hover {
 }
 
 .mision img {
+    /* background: #000; */
     width: 16%;
     border-radius: 50%;
+    margin-bottom: 4%;
+    box-shadow: #66636366 0px 4px 16px;
+
 }
 
 .vision img {
-    width: 14%;
+    background: white;
+    padding: 8px;
+    width: 12%;
     border-radius: 50%;
-}
+    margin-bottom: 4%;
+    box-shadow: #66636366 0px 4px 16px;
 
-.main-3-1-text {
-    width: 80%;
-}
 
+}
 .main-3 h3 {
     color: #F4C7C3;
     font-size: 28px;
@@ -231,8 +239,14 @@ button:hover {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
+    margin-bottom: 20%;
+    width: 80%;
 }
-
+.main-3-1-text h3,
+.main-3-2-text h3{
+    text-align: center;
+    font-size: 22px;
+}
 .footer {
     margin: auto;
     width: 100%;
