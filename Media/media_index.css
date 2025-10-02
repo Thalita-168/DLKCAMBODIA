@@ -2,7 +2,11 @@
     .img p {
         display: none;
     }
-
+ .menu{
+        margin-right: 5%;
+        display: flex;
+        gap: 14px;
+    }
     .menu a{
         font-size: 14px;
     }
@@ -24,7 +28,9 @@
     .learnmore {
         margin-left: 12px;
     }
-
+     .input-search{
+        display: none;
+    }
     .mission_vision {
         display: flex;
         flex-direction: column;

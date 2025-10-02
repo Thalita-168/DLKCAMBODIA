@@ -38,7 +38,7 @@ body {
 .header {
     width: 100%;
     height: 60px;
-    background: #F5F5F5;
+    background: #efefeff1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -73,7 +73,6 @@ body {
     flex: 0.4;
     display: flex;
     gap: 32px;
-    margin-right: 24px;
 }
 
 .menu a {
@@ -82,14 +81,43 @@ body {
     margin-top: 24px;
     font-size: large;
     font-weight: 600;
+    transition: 0.3s ease;
+
+
+}
+.input-search{
+    margin: 1% 3% 0 0;
+}
+.input-search input{
+    padding: 7px 15px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    margin-right: 10px;
+    width: 150px;
+    transition: 0.3s ease;
 
 }
 
-.menu a:hover {
-    color: #ba425af2;
-
+.input-search input:focus{
+    width: 200px;
+    background: #222222ea;
+    color: white;
 }
-
+.input-search .btn-search{
+    font-size: 16px;
+    padding: 6px 12px;
+    background: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.input-search .btn-search:hover{
+    background: #ba425a83;
+    color: white;
+}
 .main {
     display: flex;
     flex-direction: column;
@@ -132,7 +160,7 @@ body {
 
 }
 
-button {
+.btn-shop {
     background-color: white;
     color: black;
     padding: 12px 24px;
@@ -145,7 +173,7 @@ button {
     margin-left: 28%;
 }
 
-button:hover {
+.btn-shop:hover {
     background-color: #ba425a83;
     transform: scale(1.05);
     color: white;
@@ -178,6 +206,9 @@ button:hover {
     background: #ce927e;
     border-radius: 12px;
     color: white;
+    border: none;
+    margin-left: 32%;
+    font-size: 16px;
 }
 
 .our_story a {

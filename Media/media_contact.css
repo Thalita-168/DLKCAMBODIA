@@ -2,11 +2,19 @@
     .img p{
         display: none;
     }
+     .menu{
+        margin-right: 5%;
+        display: flex;
+        gap: 14px;
+    }
     .menu a{
         font-size: 14px;
     }
     .contact{
         padding-top: 15%;
+    }
+     .input-search{
+        display: none;
     }
     .location h3{
         font-size: 18px;
