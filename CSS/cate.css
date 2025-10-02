@@ -89,7 +89,7 @@ body {
 .menu {
     flex: 0.4;
     display: flex;
-    gap: 32px;
+    gap: 42px;
 }
 
 .menu a {
