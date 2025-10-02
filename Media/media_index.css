@@ -21,10 +21,13 @@
     }
 
     .title h1 {
-        font-size: 35px;
-        width: 90%;
+        font-size: 32px;
+        width: 80%;
+        margin-left: 2%;
     }
-
+    .btn-shop{
+        margin-left: 26%;
+    }
     .learnmore {
         margin-left: 12px;
     }
@@ -65,6 +68,7 @@
     .title-pic img {
         height: 90%;
         margin-top: 20%;
+        margin-left: 5%;
     }
 
     .title {
@@ -72,7 +76,8 @@
     }
 
     .title h1 {
-        font-size: 36px;
+        margin-top: 10%;
+        font-size: 34px;
         width: 100%;
     }
    
