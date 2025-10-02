@@ -85,10 +85,12 @@ body {
 
 
 }
-.input-search{
+
+.input-search {
     margin: 1% 3% 0 0;
 }
-.input-search input{
+
+.input-search input {
     padding: 7px 15px;
     border-radius: 25px;
     border: none;
@@ -100,12 +102,13 @@ body {
 
 }
 
-.input-search input:focus{
+.input-search input:focus {
     width: 200px;
     background: #222222ea;
     color: white;
 }
-.input-search .btn-search{
+
+.input-search .btn-search {
     font-size: 16px;
     padding: 6px 12px;
     background: white;
@@ -114,10 +117,12 @@ body {
     cursor: pointer;
     transition: 0.3s ease;
 }
-.input-search .btn-search:hover{
+
+.input-search .btn-search:hover {
     background: #ba425a83;
     color: white;
 }
+
 .main {
     display: flex;
     flex-direction: column;
@@ -150,7 +155,7 @@ body {
     gap: 32px;
 }
 
-.title h1 {
+/* .title h1 {
     color: white;
     font-size: 48px;
     width: 80%;
@@ -158,10 +163,27 @@ body {
     text-align: center;
     text-shadow: 2px 3px 2px #ba425ad6;
 
+} */
+.title h1 {
+    color: #F4C7C3;
+    font-size: 47px;
+    width: 80%;
+    text-transform: uppercase;
+    text-align: center;
+    transform: scale(1.2);
+    background: linear-gradient(135deg,  rgb(250, 250, 250), rgba(255, 249, 249, 0.825) );
+    margin-left: 8%;
+    margin-top: 4%;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    -moz-background-clip: text;
+    -moz-text-stroke: 4px transparent;
+    word-spacing: 5px;
+
 }
 
 .btn-shop {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.377);
     color: black;
     padding: 12px 24px;
     border: none;
@@ -170,7 +192,7 @@ body {
     font-weight: 500;
     cursor: pointer;
     transition: 0.3s ease;
-    margin-left: 28%;
+    margin-left: 36%;
 }
 
 .btn-shop:hover {
