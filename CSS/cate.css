@@ -34,7 +34,7 @@ body {
 .head p {
     margin-top: 14px;
 }
-
+/* ----------Navbar----------- */
 .mix {
     position: fixed;
     top: 16;
@@ -148,6 +148,7 @@ body {
 
 }
 
+/* ----------Banner with input----------- */
 .main-1 {
     background: #F4C7C3;
     display: flex;
@@ -189,6 +190,7 @@ body {
     pointer-events: none;
 }
 
+/* ----------Categories can click on----------- */
 .main-2 {
     display: flex;
     height: 40vh;
@@ -247,6 +249,8 @@ body {
 .gift3{
     background: #e7eee4;
 }
+
+/* ----------Each products----------- */
 .categories {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
@@ -403,6 +407,7 @@ body {
     border: 1px;
 }
 
+/* ----------Footer----------- */
 .footer {
     margin: 28px auto;
     width: 100%;

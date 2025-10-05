@@ -17,7 +17,7 @@ body {
     padding-right: 12px;
 
 }
-
+/* ----------Navbar----------- */
 .mix {
     position: fixed;
     top: 16;
@@ -122,6 +122,8 @@ body {
     background: #ba425a83;
     color: white;
 }
+
+/* ----------Cantact----------- */
 .contact {
     height: 100vh;
     padding-top: 10%;
@@ -139,7 +141,7 @@ hr {
     margin-right: auto;
 }
 
-
+/* ----------Location----------- */
 .location {
     display: flex;
     flex-direction: column;
@@ -158,6 +160,7 @@ hr {
 
 }
 
+/* ----------Form Contact----------- */
 .form {
     display: grid;
     grid-template-columns: 0.6fr 0.4fr;
@@ -166,7 +169,7 @@ hr {
 .contact h3 {
     font-size: 24px;
 }
-
+/* ----------Contact by form----------- */
 .form1 {
     display: flex;
     flex-direction: column;
@@ -200,7 +203,7 @@ hr {
 
     padding: 14px 58px;
 }
-
+/* ----------Contact by phone----------- */
 .form2 {
     height: 60vh;
     display: flex;
@@ -275,6 +278,8 @@ hr {
     flex-direction: row;
     justify-content: space-around;
 }
+/* ----------Footer----------- */
+
 .footer {
     margin: 20% auto;
     width: 100%;

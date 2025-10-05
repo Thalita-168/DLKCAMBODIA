@@ -17,7 +17,7 @@ body {
     padding-right: 12px;
 
 }
-
+/* ----------navbar----------- */
 .mix {
     position: fixed;
     top: 16;
@@ -126,6 +126,7 @@ body {
     color: white;
 }
 
+/* ----------banner----------- */
 .main {
     display: flex;
     flex-direction: column;
@@ -157,16 +158,6 @@ body {
     flex-direction: column;
     gap: 32px;
 }
-
-/* .title h1 {
-    color: white;
-    font-size: 48px;
-    width: 80%;
-    text-transform: uppercase;
-    text-align: center;
-    text-shadow: 2px 3px 2px #ba425ad6;
-
-} */
 .title h1 {
     color: #F4C7C3;
     font-size: 47px;
@@ -204,6 +195,7 @@ body {
     color: white;
 }
 
+/* ----------ourstory----------- */
 .our_story {
     width: 70%;
     display: flex;
@@ -243,7 +235,7 @@ body {
 .learnmore:hover {
     background: #a67b6d;
 }
-
+/* ----------Mission_Vision----------- */
 .mission_vision {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -315,6 +307,7 @@ body {
     font-size: 22px;
 }
 
+/* ----------Footer----------- */
 .footer {
     margin: auto;
     width: 100%;
